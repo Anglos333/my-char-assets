@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "default": {
+    "user_origin": "six",
+    "user_codename": "六号",
+    "evil_points": 0,
+    "milestone_arrived": true,
+    "milestone_joined_葛瑞丝": true,
+    "milestone_first_battle": true,
+    "milestone_met_海涅": false,
+    "milestone_温泉乡": false,
+    "milestone_海涅_转向": false,
+    "milestone_钨丝_到来": false,
+    "milestone_钨丝_暴露": false,
+    "milestone_罗素_和平": false,
+    "milestone_魔王军_分裂": false,
+    "milestone_final_battle": false,
+    "milestone_归属选择": false,
+    "date": 1,
+    "location": "王都",
+    "好感度": {
+      "爱丽丝": 30,
+      "雪诺": 20,
+      "萝丝": 40,
+      "格琳": 15,
+      "海涅": 0,
+      "钨丝": 25
+    },
+    "阶段": {
+      "爱丽丝": "初期搭档",
+      "雪诺": "初期",
+      "萝丝": "初期",
+      "格琳": "初期",
+      "海涅": "敌对期",
+      "钨丝": "监视期"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "user_origin": {
+      "default": "six",
+      "type": "string",
+      "enum": [
+        "six",
+        "partner",
+        "local"
+      ]
+    },
+    "user_codename": {
+      "default": "六号",
+      "type": "string"
+    },
+    "evil_points": {
+      "default": 0,
+      "type": "number"
+    },
+    "milestone_arrived": {
+      "default": true,
+      "type": "boolean"
+    },
+    "milestone_joined_葛瑞丝": {
+      "default": true,
+      "type": "boolean"
+    },
+    "milestone_first_battle": {
+      "default": true,
+      "type": "boolean"
+    },
+    "milestone_met_海涅": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_温泉乡": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_海涅_转向": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_钨丝_到来": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_钨丝_暴露": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_罗素_和平": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_魔王军_分裂": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_final_battle": {
+      "default": false,
+      "type": "boolean"
+    },
+    "milestone_归属选择": {
+      "default": false,
+      "type": "boolean"
+    },
+    "date": {
+      "default": 1,
+      "type": "number"
+    },
+    "location": {
+      "default": "王都",
+      "type": "string"
+    },
+    "好感度": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "爱丽丝": {
+          "default": 30,
+          "type": "number"
+        },
+        "雪诺": {
+          "default": 20,
+          "type": "number"
+        },
+        "萝丝": {
+          "default": 40,
+          "type": "number"
+        },
+        "格琳": {
+          "default": 15,
+          "type": "number"
+        },
+        "海涅": {
+          "default": 0,
+          "type": "number"
+        },
+        "钨丝": {
+          "default": 25,
+          "type": "number"
+        }
+      }
+    },
+    "阶段": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "爱丽丝": {
+          "default": "初期搭档",
+          "type": "string",
+          "enum": [
+            "初期搭档",
+            "亲密期"
+          ]
+        },
+        "雪诺": {
+          "default": "初期",
+          "type": "string",
+          "enum": [
+            "初期",
+            "战友期",
+            "恋爱期"
+          ]
+        },
+        "萝丝": {
+          "default": "初期",
+          "type": "string",
+          "enum": [
+            "初期",
+            "觉醒期"
+          ]
+        },
+        "格琳": {
+          "default": "初期",
+          "type": "string",
+          "enum": [
+            "初期",
+            "信赖期"
+          ]
+        },
+        "海涅": {
+          "default": "敌对期",
+          "type": "string",
+          "enum": [
+            "敌对期",
+            "酒友期",
+            "同居依赖期"
+          ]
+        },
+        "钨丝": {
+          "default": "监视期",
+          "type": "string",
+          "enum": [
+            "监视期",
+            "同化期"
+          ]
+        }
+      }
+    }
+  }
+}

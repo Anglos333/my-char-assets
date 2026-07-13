@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --c-deep: #1a1a2e;
+  --c-surface: #16213e;
+  --c-card: #0f3460;
+  --c-accent: #e94560;
+  --c-accent2: #f0a500;
+  --c-accent3: #00b4d8;
+  --c-text: #e0e0e0;
+  --c-text2: #a0a0b0;
+  --c-border: #2a2a4a;
+  --c-success: #2ecc71;
+  --c-warning: #f39c12;
+  --c-danger: #e74c3c;
+  --font-main: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  font-family: var(--font-main);
+  font-size: 13px;
+  color: var(--c-text);
+}
